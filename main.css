@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 20px;
+  width: 30rem;
+  border: 1px solid silver;
+  padding: 1.25rem;
+  box-shadow: 10px 10px 0px -1px rosybrown;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: none;
+  transform: translate(1px, 1px);
+}
+
+.text {
+  text-align: center;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  font-size: 600;
+}
+
+#error {
+  text-align: center;
+  color: red;
+  margin-top: 1.25rem;
+}
+
+#loading {
+  text-align: center;
+  color: red;
+}
